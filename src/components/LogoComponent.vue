@@ -14,6 +14,7 @@ export default {
 .logo__text {
   font-family: "Nanum Brush Script", cursive;
   font-size: 3rem;
+  z-index: 10;
 
   &-orange {
     color: $orange-color;

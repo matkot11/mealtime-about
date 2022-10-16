@@ -49,7 +49,7 @@ export default {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background-color: #ffffff;
+  background-color: $white-color;
 
   &__link {
     margin: 1.5rem;
