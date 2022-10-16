@@ -50,7 +50,7 @@ export default {
   z-index: 999;
 
   &__line {
-    border-bottom: 2.5px solid black;
+    border-bottom: 2.5px solid $black-color;
     height: 1px;
     width: 2.8rem;
   }

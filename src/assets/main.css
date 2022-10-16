@@ -8,7 +8,6 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
-    overflow: hidden;
     margin: 0;
     padding: 1.5rem;
     position: relative;
@@ -35,4 +34,8 @@ p {
 input, textarea {
     font-family: 'Montserrat', sans-serif;
     color: #000;
+}
+
+ul {
+    margin: 0;
 }
