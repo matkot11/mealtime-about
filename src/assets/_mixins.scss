@@ -19,9 +19,11 @@
 @mixin fullscreen-image-styles {
   width: 95vw;
   height: 98vh;
-  position: absolute;
+  position: fixed;
   top: 1vh;
   left: 2.5vw;
   z-index: 10000;
+  object-fit: contain;
+  background-color: white;
 }
 

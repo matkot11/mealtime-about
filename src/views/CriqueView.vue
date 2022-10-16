@@ -23,7 +23,7 @@
       </button>
       <img
         v-show="showImage === 1"
-        @click="handleBiggerImage"
+        @click="handleResizeImage"
         src="../assets/images/tasty/recipes.jpg"
         alt="Recipes"
         class="carousel__image"
@@ -31,7 +31,7 @@
       />
       <img
         v-show="showImage === 2"
-        @click="handleBiggerImage"
+        @click="handleResizeImage"
         src="../assets/images/tasty/recipe.jpg"
         alt="Recipe"
         class="carousel__image"
@@ -39,7 +39,7 @@
       />
       <img
         v-show="showImage === 3"
-        @click="handleBiggerImage"
+        @click="handleResizeImage"
         src="../assets/images/tasty/shoppingList.jpg"
         alt="Shopping list"
         class="carousel__image"
@@ -47,7 +47,7 @@
       />
       <img
         v-show="showImage === 4"
-        @click="handleBiggerImage"
+        @click="handleResizeImage"
         src="../assets/images/tasty/guides.jpg"
         alt="Guides"
         class="carousel__image"
@@ -77,14 +77,14 @@ export default {
       }
     };
 
-    const handleBiggerImage = () => {
+    const handleResizeImage = () => {
       isImageBig.value = !isImageBig.value;
     };
 
     return {
       showImage,
       handleChangeImage,
-      handleBiggerImage,
+      handleResizeImage,
       isImageBig,
     };
   },
@@ -123,6 +123,7 @@ export default {
   &__image {
     width: 12rem;
     border-radius: 5px;
+    border: 1px solid $black-color;
   }
 }
 

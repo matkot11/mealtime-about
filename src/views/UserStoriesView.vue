@@ -16,15 +16,8 @@
     <h3 class="wrapper__name">{{ userStories[isFirstUser].name }}</h3>
     <div class="details">
       <img
-        v-show="!isFirstUser"
         class="details__image"
-        src="@/assets/images/maleFace.jpg"
-        :alt="userStories[isFirstUser].name + 'face'"
-      />
-      <img
-        v-show="isFirstUser"
-        class="details__image"
-        src="@/assets/images/femaleFace.jpg"
+        :src="userStories[isFirstUser].img"
         :alt="userStories[isFirstUser].name + 'face'"
       />
       <ul class="details__list">
@@ -57,7 +50,7 @@
 <script>
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import ButtonComponent from "@/components/ButtonComponent.vue";
-import { userStories } from "../../data/userStories";
+import { userStories } from "@/data/userStories";
 import { ref } from "vue";
 export default {
   setup() {
