@@ -16,13 +16,13 @@
     <h3 class="wrapper__name">{{ userStories[isFirstUser].name }}</h3>
     <div class="details">
       <img
-        v-if="!isFirstUser"
+        v-show="!isFirstUser"
         class="details__image"
         src="@/assets/images/maleFace.jpg"
         :alt="userStories[isFirstUser].name + 'face'"
       />
       <img
-        v-else
+        v-show="isFirstUser"
         class="details__image"
         src="@/assets/images/femaleFace.jpg"
         :alt="userStories[isFirstUser].name + 'face'"
