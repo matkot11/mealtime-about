@@ -95,7 +95,6 @@ export default {
 <style lang="scss" scoped>
 .wrapper {
   @include wrapper-styles;
-  //position: relative;
 
   &__heading {
     @include heading-styles;
