@@ -28,10 +28,10 @@
 .home {
   &__image {
     margin: -5rem -1.5rem 0 -1.5rem;
-    height: 40rem;
+    height: 60vh;
     width: 100vw;
     object-fit: cover;
-    opacity: 90%;
+    opacity: 85%;
   }
 
   &__about {
