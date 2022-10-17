@@ -46,7 +46,7 @@ export const sketches = [
     id: 6,
     name: "Meal details",
     image: mealDetails,
-    text: "Meal details page shows everyting about the meal. It also allows to add meal to favorites.",
+    text: "Meal details page shows everything about the meal. It also allows to add meal to favorites.",
   },
   {
     id: 7,

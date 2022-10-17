@@ -58,9 +58,6 @@ export default {
   &__element {
     padding: 0.9rem 1rem;
   }
-
-  &__summary {
-  }
 }
 
 .about {
