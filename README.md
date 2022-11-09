@@ -12,6 +12,17 @@
 npm install
 ```
 
+### Run Android app
+
+```sh
+npx cap run android
+```
+### Run IOS app
+
+```sh
+npx cap run ios
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
